@@ -16,7 +16,7 @@ const templating = (arr)=>{
     result ='';
     arr.forEach((note , i) =>{
     result += `
-    <div class="col-3">
+    <div class="col-sm-6 col-md-4 mb-3">
                 <div class="card p-3 h-100">
                     <h5 class="h5">note ${i + 1}</h5>
                     <div class="card-body p-0">
