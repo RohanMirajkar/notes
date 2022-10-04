@@ -9,3 +9,8 @@
     height: 150px;
     overflow: auto;
 }
+.card small{
+    font-size: 10px;
+    opacity: .5;
+    display: block;
+}
